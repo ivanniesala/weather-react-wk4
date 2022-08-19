@@ -13,6 +13,7 @@ function App() {
         <a
           href="https://github.com/ivanniesala/weather-react-wk4"
           target="_blank"
+          rel="noreferrer"
         >
           Check out my repository on GitHub
         </a>
