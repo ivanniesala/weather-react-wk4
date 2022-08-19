@@ -52,7 +52,7 @@ export default function SearchCity() {
           <li>Humidity: {temperature.humidity}%</li>
           <li>Wind: {temperature.wind} m/h</li>
           <li>
-            <img src={temperature.icon} />
+            <img src={temperature.icon} alt={temperature.description} />
           </li>
         </ul>
       </div>
