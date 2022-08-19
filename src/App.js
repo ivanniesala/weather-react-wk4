@@ -1,4 +1,3 @@
-
 import "./App.css";
 import SearchCity from "./SearchCity";
 
@@ -9,9 +8,14 @@ function App() {
       <SearchCity />
 
       <h2> </h2>
-      <br /> 
-      <p> 
-      
+      <br />
+      <p>
+        <a
+          href="https://github.com/ivanniesala/weather-react-wk4"
+          target="_blank"
+        >
+          Check out my repository on GitHub
+        </a>
       </p>
     </div>
   );
