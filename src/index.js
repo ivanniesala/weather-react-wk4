@@ -11,14 +11,34 @@ root.render(
   <React.StrictMode>
     <App />
     <p className="link">
-      {" "}
+      Created by {""}
+      <a
+        href="https://www.linkedin.com/in/ivannie-saladin-736b50132/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        Ivannie Saladin {""}
+      </a>
+      student at {""}
+      <a href="https://www.shecodes.io/" target="_blank" rel="noreferrer">
+        Shecodes
+      </a>
+      <br />
       Check out my repository on{" "}
       <a
         href="https://github.com/ivanniesala/weather-react-wk4"
         target="_blank"
         rel="noreferrer"
       >
-        GitHub
+        GitHub {""}
+      </a>
+      hosted on{" "}
+      <a
+        href="https://app.netlify.com/teams/ivanniesala/overview"
+        target="_blank"
+        rel="noreferrer"
+      >
+        Netlify
       </a>
     </p>
   </React.StrictMode>
