@@ -12,18 +12,14 @@ root.render(
     <App />
     <p className="link">
       {" "}
-      Check out my repository on {" "}
+      Check out my repository on{" "}
       <a
         href="https://github.com/ivanniesala/weather-react-wk4"
         target="_blank"
         rel="noreferrer"
       >
-          GitHub
+        GitHub
       </a>
-      hosted on 
-      <a href=""
-      target="_blank"
-      rel="noreferrer">Netlify</a>
     </p>
   </React.StrictMode>
 );
