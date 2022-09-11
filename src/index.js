@@ -10,17 +10,23 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <App />
-    <p className="link">
+    <p className="resouces">
       Created by {""}
       <a
         href="https://www.linkedin.com/in/ivannie-saladin-736b50132/"
         target="_blank"
         rel="noreferrer"
+        className="link"
       >
         Ivannie Saladin {""}
       </a>
       student at {""}
-      <a href="https://www.shecodes.io/" target="_blank" rel="noreferrer">
+      <a
+        href="https://www.shecodes.io/"
+        target="_blank"
+        rel="noreferrer"
+        className="link"
+      >
         Shecodes
       </a>
       <br />
@@ -29,6 +35,7 @@ root.render(
         href="https://github.com/ivanniesala/weather-react-wk4"
         target="_blank"
         rel="noreferrer"
+        className="link"
       >
         GitHub {""}
       </a>
@@ -37,6 +44,7 @@ root.render(
         href="https://app.netlify.com/teams/ivanniesala/overview"
         target="_blank"
         rel="noreferrer"
+        className="link"
       >
         Netlify
       </a>

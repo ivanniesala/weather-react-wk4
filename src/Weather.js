@@ -50,7 +50,8 @@ export default function Weather(props) {
         onChange={updateCity}
       />
 
-      <input type="submit" value="Search" className="btn btn-primary w-100" />
+
+      <input id="btn" type="submit" value="Search" className="btn btn-outline-secondary" />
     </form>
   );
 
